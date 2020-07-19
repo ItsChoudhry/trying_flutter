@@ -4,11 +4,9 @@ import 'ui/layout.dart';
 import 'ui/scaffold.dart';
 import 'ui/gesture.dart';
 import 'ui/makeitrain.dart';
+import 'ui/login.dart';
 
 void main(List<String> args) {
   var title = 'gesture';
-  runApp(MaterialApp(
-    title: title,
-    home: MakeItRain(),
-  ));
+  runApp(CustomLogin());
 }
